@@ -53,33 +53,41 @@
 
 ### 🚀 [SalesBoost](https://github.com/chanjin346/be22-4st-team2-project)
 
-> B2B 수출 업무 지원 웹 서비스 | **DevOps 인프라 전담**
+
+> B2B 수출 업무 지원 웹 서비스 | **포트폴리오 기능 개발 & 버그 수정**
 
 Public 화면(서비스 소개/포트폴리오/제휴문의)과 Admin 화면(로그인/문의관리/포트폴리오관리)으로 구성된 풀스택 팀 프로젝트입니다.
 3인 팀으로 다른 팀보다 적은 인원이었지만 가장 먼저 전 과정을 완료했습니다.
 
-**🔧 담당 역할 — 인프라 전반 구축 (전담)**
+**🔧 담당 역할 — 포트폴리오 기능 개발 & 오류 해결**
 
-* **Frontend ↔ Backend 연동**: Vue.js와 Spring Boot API 연결 및 Nginx 리버스 프록시 설정
-* **Docker / Docker Compose**: 전체 스택(Frontend, Backend, DB, ELK, Prometheus, Grafana) 컨테이너화
-* **Kubernetes 배포**: Deployment, Service, Ingress, HPA 자동 확장(CPU 70% → 최대 3 Pod) 구성
-* **Jenkins CI/CD**: GitHub Webhook → Test → Build → Trivy 보안 스캔 → Push → GitOps 파이프라인 구축
-* **ArgoCD GitOps**: `infra/k8s/` 자동 동기화(prune + selfHeal) 설정
-* **모니터링**: ELK Stack(로그 수집/시각화) + Prometheus/Grafana(메트릭 대시보드) 구축
-* **보안 강화**: non-root 컨테이너 실행, Swagger 프로덕션 비활성화, 파일 업로드 검증
+* **포트폴리오 CRUD**: 포트폴리오 등록 / 수정 / 삭제 / 상세 조회 API 및 화면 구현
+* **포트폴리오 운영 기능**: 공개/비공개 전환, 표시 순서 관리 기능 개발
+* **포트폴리오 이미지 관리**: 썸네일 및 상세 이미지 업로드 검증(확장자/MIME 타입) 및 N+1 쿼리 최적화
+* **버그 수정**: 프로젝트 전반에 걸친 오류 원인 분석 및 수정으로 팀 개발 안정성 기여
 
 `Java 21` `Spring Boot 3.5` `Spring Security` `JWT` `JPA` `MyBatis` `MariaDB` `Vue.js 3` `Docker` `Kubernetes` `Jenkins` `ArgoCD` `ELK` `Prometheus` `Grafana`
-
 ---
 
 ### 🇯🇵 [JapaneseQuizProject](https://github.com/chanjin346/JapaneseQuizProject)
 
-> 일본어 퀴즈 학습 웹 애플리케이션 | **CI/CD 파이프라인 포함**
+> 일본어 퀴즈 학습 웹 애플리케이션 | **백엔드 보안/회원 & 프론트엔드 관리자/학습 기능**
 
 일본어 학습을 돕는 퀴즈 서비스로, Spring Boot 백엔드와 Vue.js 프론트엔드를 조합한 풀스택 프로젝트입니다.
 Dockerfile, Jenkinsfile, docker-compose.yml을 포함하여 컨테이너 기반 배포 환경까지 갖춘 프로젝트입니다.
 
-`Java` `Spring Boot` `Vue.js` `Docker` `Jenkins` `MySQL`
+**🔧 담당 역할 — 백엔드 보안/회원 + 프론트엔드 주요 기능**
+
+* **[Backend] 보안 & 인증**: Spring Security 기반 인증/인가 로직, JWT 토큰 발급 및 검증 구현
+* **[Backend] 회원 관리**: 회원가입 / 로그인 / 회원 정보 관련 비즈니스 로직 개발
+* **[Frontend] 관리자 페이지**: 관리자 전용 대시보드 및 콘텐츠 관리 화면 구현
+* **[Frontend] 오답노트**: 사용자별 오답 문제 저장 및 복습 기능 구현
+* **[Frontend] 통계**: 학습 현황 및 정답률 시각화 기능 구현
+* **[Frontend] 즐겨찾기**: 문제 즐겨찾기 등록/해제 기능 구현
+* **[Frontend] 메인페이지**: 메인 페이지 서브 기능 개발 참여
+
+`Java` `Spring Boot` `Spring Security` `JWT` `Vue.js` `Docker` `Jenkins` `MySQL`
+
 
 ---
 
