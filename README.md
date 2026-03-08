@@ -67,6 +67,8 @@ Public 화면(서비스 소개/포트폴리오/제휴문의)과 Admin 화면(로
 * **버그 수정**: 프로젝트 전반에 걸친 오류 원인 분석 및 수정으로 팀 개발 안정성 기여
 
 `Java 21` `Spring Boot 3.5` `Spring Security` `JWT` `JPA` `MyBatis` `MariaDB` `Vue.js 3` `Docker` `Kubernetes` `Jenkins` `ArgoCD` `ELK` `Prometheus` `Grafana`
+
+
 ---
 
 ### 🇯🇵 [JapaneseQuizProject](https://github.com/chanjin346/JapaneseQuizProject)
