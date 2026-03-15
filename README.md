@@ -133,11 +133,11 @@ Dockerfile, Jenkinsfile, docker-compose.yml을 포함하여 컨테이너 기반 
   초기 구현 이후 코드 리뷰 과정에서 스스로 보안 취약점 5가지를 발견했습니다.
 
   취약점
-  JWT 시크릿 키가 application-dev.yml에 하드코딩 후 git에 그대로 커밋 
-  Refresh Token을 DB에 평문 저장  
-  Refresh Token 재사용 가능 (Rotation 미적용) 
-  탈퇴/비활성 회원의 Access Token이 유효 기간 동안 계속 사용 가능 
-  CORS 설정이 WebMvcConfig와 SecurityConfig 두 곳에 이중으로 존재 
+  - JWT 시크릿 키가 application-dev.yml에 하드코딩 후 git에 그대로 커밋 
+  - Refresh Token을 DB에 평문 저장  
+  - Refresh Token 재사용 가능 (Rotation 미적용) 
+  - 탈퇴/비활성 회원의 Access Token이 유효 기간 동안 계속 사용 가능 
+  - CORS 설정이 WebMvcConfig와 SecurityConfig 두 곳에 이중으로 존재 
  
   해결 
   - application-dev.yml → .gitignore 추가, 환경변수 필수화
