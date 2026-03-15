@@ -51,26 +51,6 @@
 
 ## 🌟 Project Highlights
 
-### 🚀 [SalesBoost](https://github.com/chanjin346/be22-4st-team2-project)
-
-
-> B2B 수출 업무 지원 웹 서비스 | **포트폴리오 기능 개발 & 버그 수정**
-
-Public 화면(서비스 소개/포트폴리오/제휴문의)과 Admin 화면(로그인/문의관리/포트폴리오관리)으로 구성된 풀스택 팀 프로젝트입니다.
-3인 팀으로 다른 팀보다 적은 인원이었지만 가장 먼저 전 과정을 완료했습니다.
-
-**🔧 담당 역할 — 포트폴리오 기능 개발 & 오류 해결**
-
-* **포트폴리오 CRUD**: 포트폴리오 등록 / 수정 / 삭제 / 상세 조회 API 및 화면 구현
-* **포트폴리오 운영 기능**: 공개/비공개 전환, 표시 순서 관리 기능 개발
-* **포트폴리오 이미지 관리**: 썸네일 및 상세 이미지 업로드 검증(확장자/MIME 타입) 및 N+1 쿼리 최적화
-* **버그 수정**: 프로젝트 전반에 걸친 오류 원인 분석 및 수정으로 팀 개발 안정성 기여
-
-`Java 21` `Spring Boot 3.5` `Spring Security` `JWT` `JPA` `MyBatis` `MariaDB` `Vue.js 3` `Docker` `Kubernetes` `Jenkins` `ArgoCD` `ELK` `Prometheus` `Grafana`
-
-
----
-
 ### 🇯🇵 [JapaneseQuizProject](https://github.com/chanjin346/JapaneseQuizProject)
 
 > 일본어 퀴즈 학습 웹 애플리케이션 | **백엔드 보안/회원 & 프론트엔드 관리자/학습 기능**
